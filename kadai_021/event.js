@@ -1,6 +1,6 @@
 //btn,textというidを持つHTML要素を取得し、定数に代入する。
-const btn = document.getElementById("");
-const text = document.getElementById("");
+const btn = document.getElementById("btn");
+const text = document.getElementById("text");
 
 //HTML要素がクリックされたときに、イベント処理を実行する。
 btn.addEventListener("click", () => {
